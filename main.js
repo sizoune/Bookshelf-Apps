@@ -145,7 +145,7 @@ function generateBookObject(id, title, author, year, isCompleted) {
         id,
         title,
         author,
-        year,
+        year:Number(year),
         isCompleted
     }
 }
